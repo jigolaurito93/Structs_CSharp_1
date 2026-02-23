@@ -28,3 +28,13 @@ Key differences between Structs and Classes:
     No Inheritance:
         - Structs do not support inheritance, which means they cannot be used as a base class for other structs or classes.
         - However, structs can inherit from interfaces.
+
+ENUMS:
+
+Enums:
+    - Are a special type of struct that represent a set of named constants.
+    - They are declared using the "enum" keyword.
+    - They are immutable and cannot be modified after creation.
+    - They should be placed in the namespace level so it can be used by the whole library.
+    
+

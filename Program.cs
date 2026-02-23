@@ -24,13 +24,21 @@ namespace Structs_CSharp_1
             p3.Display();
             p1.Display();
             
-            */
+            
 
             Point p1 = new Point(5, 2);
             Point p2 = new Point(10, 20);
        
             double distance = p1.DistanceTo(p2);
             System.Console.WriteLine($"Distance between points: {distance:F2}");
+*/
+            System.Console.WriteLine("Hello World!");
+            
+            Day mon = Day.Monday;
+            Day tue = Day.Tuesday;
+            Month jan = Month.January;
+            System.Console.WriteLine((int)jan);
+            System.Console.WriteLine((int)Month.February);
 
         }
     }
