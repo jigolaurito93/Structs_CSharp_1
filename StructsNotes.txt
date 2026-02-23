@@ -11,6 +11,14 @@ Structs:
         - etc.
     - If you need inheritance, polymorphism, or large data structure, classes are typically more appropriate.
     - Structs are similar to classes but have some important differences.
+    - It's a common practice to make structs immutable by declaring all fields as "readonly"
+      and providing only get accessors for properties.
+      
+      public X { get; }
+      public Y { get; }
+
+Structs vs. Classes:
+
 
 Key differences between Structs and Classes:
     Value Type:

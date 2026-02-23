@@ -5,6 +5,7 @@ namespace Structs_CSharp_1
     {
         static void Main()
         {
+            /*
             Point p1 = new Point(5, 2);
             p1.Display();
 
@@ -22,6 +23,14 @@ namespace Structs_CSharp_1
             p3.X = 100;
             p3.Display();
             p1.Display();
+            
+            */
+
+            Point p1 = new Point(5, 2);
+            Point p2 = new Point(10, 20);
+       
+            double distance = p1.DistanceTo(p2);
+            System.Console.WriteLine($"Distance between points: {distance:F2}");
 
         }
     }
