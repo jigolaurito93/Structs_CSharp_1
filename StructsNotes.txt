@@ -1,0 +1,22 @@
+Structs
+
+Structs:
+    - Short for structures
+    - Are value types that are typically used to encapsulate small groups of related variables
+    - Best used for small data structures that have value semantics and will not be modified after creation.
+    - Examples include: 
+        - Complex numbers
+        - Points in a coordinate system
+        - RGB colors
+        - etc.
+    - If you need inheritance, polymorphism, or large data structure, classes are typically more appropriate.
+    - Structs are similar to classes but have some important differences.
+
+Key differences between Structs and Classes:
+    Value Type:
+        - Structs are value types, which means they are stores on the stack (or inline in containing types) and not on the heap
+        - This generally makes them more efficient in terms of memory allocation and access speed compared to classes
+          which are reference type and stored on the heap.
+    No Inheritance:
+        - Structs do not support inheritance, which means they cannot be used as a base class for other structs or classes.
+        - However, structs can inherit from interfaces.
