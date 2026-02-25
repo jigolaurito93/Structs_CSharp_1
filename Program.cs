@@ -31,7 +31,7 @@ namespace Structs_CSharp_1
        
             double distance = p1.DistanceTo(p2);
             System.Console.WriteLine($"Distance between points: {distance:F2}");
-*/
+
             System.Console.WriteLine("Hello World!");
             
             Day mon = Day.Monday;
@@ -40,7 +40,11 @@ namespace Structs_CSharp_1
             System.Console.WriteLine((int)jan);
             System.Console.WriteLine((int)Month.February);
 
+            */
+            DateTimeClass dateTimes = new DateTimeClass(2023, 6, 1);
+            dateTimes.DisplayDate();
         }
     }
 }
+
 
