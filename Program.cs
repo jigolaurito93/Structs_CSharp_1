@@ -40,9 +40,16 @@ namespace Structs_CSharp_1
             System.Console.WriteLine((int)jan);
             System.Console.WriteLine((int)Month.February);
 
-            */
+            
             DateTimeClass dateTimes = new DateTimeClass(2023, 6, 1);
             dateTimes.DisplayDate();
+            */
+            
+            // DateTime class is a class that is a reference type
+            DateTimeClass dateTime = new DateTimeClass(2023, 6, 1);
+            dateTime.DisplayDate();
+            
+
         }
     }
 }

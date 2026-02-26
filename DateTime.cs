@@ -18,6 +18,7 @@ namespace Structs_CSharp_1
         {
             DateTime dateTime = new DateTime(2023, 6, 1);
             Console.WriteLine(dateTime);
+            Console.WriteLine(DateTime.Now);        
         }
     }
 }
